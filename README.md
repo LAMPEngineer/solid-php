@@ -1,2 +1,2 @@
 # solid-php
-S.O.L.I.D. principles using PHP
+S.O.L.I.D. in PHP
