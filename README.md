@@ -1,5 +1,4 @@
-# solid-php
-S.O.L.I.D. in PHP
+# S.O.L.I.D. in PHP
 
 - S: Single-Responsibility Principle
 - O: Open-Closed Principle
