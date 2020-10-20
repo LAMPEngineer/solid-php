@@ -15,6 +15,16 @@ Software entities ... should be open for extension, but closed for modification.
 # Liskov Substitution Principle (LSP)
 Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 
+Derived classes must be substitutable for their base classes.
+
+`The Big Picture:`
+
+- Return types can be made narrower: Sub-classes can return sub-types or a smaller Union Types in the return type.
+
+- Parameters can be widened: Sub-classes must accept and handle all parameter types the parent method handles. But it can be widened to accept more types or parent types.
+
+- Property types cannot be changed.
+
 
 # Interface Segregation Principle (ISP)
 Many client-specific interfaces are better than one general-purpose interface.
