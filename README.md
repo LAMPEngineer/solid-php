@@ -47,3 +47,25 @@ This rule means that we should break our interfaces into many smaller ones, so t
  
  Or, simply: Depend on abstractions, not on concretions.
 
+
+# Conclusion
+
+* The principle of a single responsibility
+"One object must be assigned to each facility"
+To do this, we check how many reasons we have for changing the class-if there is more than one, then we must break this class.
+
+ * The principle of open-closedness
+"Software entities must be open for expansion, but they are closed for modification"
+For this, we represent our class as a "black box" and see if we can change its behavior in this case.
+
+* The substitution principle of Liskov substitution
+"Objects in the program can be replaced by their heirs without changing the properties of the program"
+For this, we check whether we have strengthened the preconditions and whether the postcondition has weakened. If this happened, then the principle is not observed
+
+* The principle of interface separation (Interface segregation)
+"Many specialized interfaces are better than one universal"
+We check how much the interface contains methods and how different functions are superimposed on these methods, and if necessary, we break the interfaces.
+
+* The principle of Dependency Invertion
+"Dependencies should be built on abstractions, not details"
+We check whether the classes depend on some other classes (instantly instantiate objects of other classes, etc.) and if this relationship takes place, we replace it with a dependence on abstraction.
