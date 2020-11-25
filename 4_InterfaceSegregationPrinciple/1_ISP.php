@@ -1,7 +1,9 @@
 <?php
 /**
  * Interface Segregation Principle (ISP)
+ *
+ * This principle declares that - 
+ * 
  * 
  */
 
-echo "Interface Segregation Principle (ISP)";
