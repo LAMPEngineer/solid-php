@@ -1,7 +1,8 @@
 <?php
 /**
  * Dependency Inversion Principle (DIP)
+ *
+ *  This principle declares that - 
  * 
  */
 
-echo "Dependency Inversion Principle (DIP)";
