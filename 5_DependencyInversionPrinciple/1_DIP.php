@@ -36,7 +36,8 @@ class Manager
 
 
 /**
- * Issue here is the Manager class depends on the Worker class.
+ * Issue here is the Manager class depends on the Worker class and it's tight coupled -
+ * should not create object within a class.
  * 
  */
 
